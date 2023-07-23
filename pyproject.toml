@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-hw-05"
+version = "0.1.0"
+description = ""
+authors = ["maxafanasiev <80445276+maxafanasiev@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "web_hw_05"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
